@@ -1,0 +1,529 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Houschka_Rounded", "Helvetica Neue", sans-serif;
+  margin: 0;
+
+  font-weight: 400 !important;
+}
+
+.btn {
+  font-family: "Houschka_Rounded", "Helvetica Neue", sans-serif;
+  display: inline-block;
+  background-color: #fdc900;
+  color: #cc0025;
+  border-radius: 50px;
+  padding: 15px 50px 13px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #fff;
+  color: #cc0025;
+}
+
+.btn--red {
+  background: #cc0025;
+  color: #fff;
+}
+.btn--lg {
+  font-size: 1.3rem;
+  padding: 15px 50px 13px;
+}
+.text-center {
+  text-align: center;
+}
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.mt-10 {
+  margin-top: 10px !important;
+}
+.mt-20 {
+  margin-top: 20px !important;
+}
+.mt-30 {
+  margin-top: 30px !important;
+}
+.mt-40 {
+  margin-top: 40px !important;
+}
+.mt-50 {
+  margin-top: 50px !important;
+}
+.mt-60 {
+  margin-top: 60px !important;
+}
+.mt-70 {
+  margin-top: 70px !important;
+}
+.mt-80 {
+  margin-top: 80px !important;
+}
+.mt-90 {
+  margin-top: 90px !important;
+}
+.mt-100 {
+  margin-top: 100px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+/****Main Cover Style****/
+.app-wrapper {
+  background-color: #cc0025;
+  background-image: url(../public/images/backgrd2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/****Header Style****/
+.header-main {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.logo-section {
+  display: flex;
+}
+.logo-section__link {
+  display: flex;
+  text-decoration: none;
+  align-items: flex-end;
+}
+.logo-section__text {
+  padding-left: 15px;
+  padding-bottom: 4px;
+  color: white;
+  font-family: "Houschka_Rounded", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1;
+}
+.logo-section__image {
+  height: 60px;
+  width: auto;
+}
+
+/****Banner Style****/
+.banner {
+  background: url("../public/images/banner.backgrd1.jpg");
+  height: 450px;
+  background-color: #000;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.banner__text {
+  color: #fff !important;
+}
+
+.milk-header {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+.milk-header span {
+  display: inline-block;
+  position: relative;
+}
+.milk-header span::before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-image: url(../public/images/heading-dot.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  left: 50px;
+}
+.milk-header span::after {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-image: url(../public/images/heading-dot-after.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
+.milk-drop-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.milk-drop {
+  flex: 1 33.333%;
+  background: url(../public/images/quote-visit.png) no-repeat center;
+
+  background-size: contain;
+  color: #cc0025;
+  height: 250px;
+  margin-bottom: 30px;
+}
+.milk-drop__header {
+  display: block;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+}
+.milk-drop__body {
+  font-family: "Houschka_Rounded", "Helvetica Neue", sans-serif;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/****Board Styles****/
+.back-link {
+  text-decoration: none;
+  color: #fff;
+}
+.back-link i {
+  padding-right: 15px;
+  font-size: 18px;
+  color: #b9b9b9;
+}
+.board-title {
+  text-align: center;
+  padding: 20px 0;
+}
+.board-title span {
+  display: inline-block;
+  border-bottom: 2px solid white;
+  color: #fff;
+}
+.board-main-section {
+  display: flex;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10 {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background-position: center;
+}
+.boxtext {
+  color: #fff;
+  position: relative;
+  font-weight: 400;
+}
+.boxtext:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(0 0 0 / 40%);
+  z-index: 0;
+}
+.boxtext span {
+  position: relative;
+  z-index: 10;
+}
+.board-goals-title {
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 70px;
+}
+.board-goals-title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgb(0 0 0 / 60%);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.board-goals-title * {
+  position: relative;
+  z-index: 10;
+}
+.border-goal-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+.box11,
+.box12,
+.box13,
+.box14,
+.box15 {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  padding-top: 0;
+  align-items: flex-end;
+  background-position: center bottom;
+}
+.boxtext1 {
+  position: relative;
+}
+.boxtext1 span {
+  font-family: "Houschka_Rounded";
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgb(0 0 0 / 80%);
+  color: #fff;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.new-minus {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  left: auto;
+  width: 30px;
+  height: 30px;
+  color: #cc0125;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+}
+.addGoal {
+  width: 400px;
+  height: 300px;
+  margin: 15px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addGoal__icon {
+  font-size: 100px;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  color: red;
+}
+/****Footer Style****/
+footer {
+  background: url(../public/images/line.png) no-repeat;
+  /* background: #b9b9b9; */
+  background-size: contain;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  color: #fff;
+  font-weight: 800;
+}
+
+/* canvas */
+
+.download-canvas {
+  display: block;
+  background: #cc0025;
+  background-repeat: no-repeat;
+  width: 500px;
+  min-height: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo-image {
+  height: 20px;
+  width: auto;
+  height: 48px;
+  width: 60px;
+  position: absolute;
+  top: 18%;
+  left: 30px;
+}
+
+.sub-canvas {
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  height: 450px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  /* flexWrap: wrap;
+               flexFlow: wrap-reverse; */
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas-header {
+  margin: 70px 5px 0px 5px;
+  text-align: center;
+  color: rgb(204, 0, 37);
+  font-family: "Houschka_Rounded";
+  /* fontWeight:bold */
+  font-size: 30px;
+}
+
+.canvas-content {
+  height: 60%;
+  width: auto;
+  display: flex;
+  flex-flow: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas-indie-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  margin: 3px;
+  align-items: flex-end;
+}
+
+.canvas-indie-title {
+  display: block;
+  width: 100%;
+  background: rgb(0 0 1 / 75%);
+  color: #fff;
+  padding: 3px;
+  font-weight: 400;
+  /* font-size: 20px; */
+  /* font-weight:bold; */
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 0px;
+  font-size: 11px;
+  box-sizing: border-box;
+}
+
+.canvas-name {
+  margin: 0px 5px 5px -30px;
+  font-family: "Houschka_Rounded";
+  color: red;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .download-canvas {
+    width: 360px;
+  }
+
+  .logo-image {
+    top: 18%;
+  }
+
+  .sub-canvas {
+    height: 450px;
+    /* justify-content: flex-start; */
+  }
+
+  .canvas-header {
+    font-size: 20px;
+    margin: 90px 0px 50px 25px;
+  }
+
+  .canvas-content {
+    height: 45%;
+    width: 379px;
+  }
+
+  .canvas-indie-img {
+    width: 25%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .canvas-name {
+    margin: 6px 0px 5px 39px;
+    font-size: 14px;
+  }
+}
+
+/* canvas */
+
+@media (max-width: 768px) {
+  .header-main {
+    justify-content: center;
+    padding: 20px 0px;
+    box-sizing: border-box;
+  }
+  .header-button {
+    margin: 20px 0px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+  }
+  .milk-drop-wrapper {
+    flex-direction: column;
+  }
+  .milk-drop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .milk-drop__header {
+    margin-top: 0px;
+  }
+}

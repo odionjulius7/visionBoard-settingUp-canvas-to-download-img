@@ -1,0 +1,138 @@
+[
+  [
+    {
+      "id": 1,
+      "name": "Save More Money",
+      "img": "images/smm4.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Start a business/side hustle",
+      "img": "images/hus.jpg"
+    },
+    {
+      "id": 3,
+      "name": "have a monthly budget",
+      "img": "images/Have-monthly.jpg"
+    },
+    {
+      "id": 4,
+      "name": "invest more",
+      "img": "images/invest-more.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Read financial books/blogs",
+      "img": "images/smm4.jpg"
+    }
+  ],
+  [
+    {
+      "id": 6,
+      "name": "Maintain a healthy body mass (BMI)",
+      "img": "images/health/bmi.jpg"
+    },
+    {
+      "id": 7,
+      "name": "start working out",
+      "img": "images/health/Start-working-out.jpg"
+    },
+    {
+      "id": 8,
+      "name": "invest in self-care",
+      "img": "images/health/spa-and-wellness.jpg"
+    },
+    {
+      "id": 9,
+      "name": "eat more fruits/healty foods",
+      "img": "images/health/Eat-more-fruitshealthy-foods.jpg"
+    },
+    {
+      "id": 10,
+      "name": "drink more water",
+      "img": "images/health/Drink-more-water.jpg"
+    }
+  ],
+  [
+    {
+      "id": 11,
+      "name": "get a degree",
+      "img": "images/education/Get-a-degree.jpg"
+    },
+    {
+      "id": 12,
+      "name": "improve my degree",
+      "img": "images/education/Improve-my-grades.jpg"
+    },
+    {
+      "id": 13,
+      "name": "read more books",
+      "img": "images/education/Read-more-books.jpg"
+    },
+    {
+      "id": 14,
+      "name": "get a scholarship",
+      "img": "images/education/Get-a-scholarship.jpg"
+    },
+    {
+      "id": 15,
+      "name": "complete a training course",
+      "img": "images/education/Complete-a-training-course.jpg"
+    }
+  ],
+  [
+    {
+      "id": 16,
+      "name": "get a new job",
+      "img": "images/career/Get-a-new-job.jpg"
+    },
+    {
+      "id": 17,
+      "name": "learn a new skil",
+      "img": "images/career/Learn-a-new-skill.jpg"
+    },
+    {
+      "id": 18,
+      "name": "go for an audition",
+      "img": "images/career/Go-for-an-audition.jpg"
+    },
+    {
+      "id": 19,
+      "name": "learn a new language",
+      "img": "images/career/Learn-a-new-language.jpg"
+    },
+    {
+      "id": 20,
+      "name": "get a professional cerificate",
+      "img": "images/career/Get-a-professional-certificate.jpg"
+    }
+  ],
+  [
+    {
+      "id": 21,
+      "name": "go on a vacation",
+      "img": "images/family/family22.jpeg"
+    },
+    {
+      "id": 22,
+      "name": "Get into a relationship",
+      "img": "images/family/Get-into-a-relationship.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Buy a house/car",
+      "img": "images/family/Buy-a-housecar.jpg"
+    },
+    {
+      "id": 24,
+      "name": "build quality connection",
+      "img": "images/family/family3.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Find develop my talent",
+      "img": "images/family/FindDevelop-my-talent.jpg"
+    }
+  ]
+]
+  
